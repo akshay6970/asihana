@@ -1,0 +1,106 @@
+@media screen and (max-width:768px){
+    .inner-container{
+        flex-direction: column;
+    }
+    .links {
+        /* flex-direction: column; */
+        display: none;
+    }
+    .ju{
+        display: none;
+    }
+
+    /* category section */
+    .card{
+        flex-direction: column;
+    }
+    .image-card {
+        width: 100%;
+    }
+    .shop-btn {
+        width: 31%;
+    }
+    .item-section {
+        flex-direction: column;
+    }
+    .mobile-card{
+        width: auto;
+        flex: auto;
+    }
+    .kid-mbl-btn{
+        width: 54%;
+    }
+    .cos-mbl-btn{
+        width: 65%;
+    }
+    .mbl-btn{
+        width: 58%;
+    }
+
+    /*  */
+    .product-bar{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .product-right-bar{
+        flex-wrap: wrap;
+        padding-left: 16px;
+        gap: 10px;
+    }
+    .pro-line {
+        bottom: 0px;
+    }
+
+    /*  */
+    .banner-title {
+        font-size: 45px;
+    }
+    .banner-btn {
+        width: auto;
+    }
+
+    /*  */
+    .trend-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* Discount section */
+    .discount{
+        flex-direction: column;
+    }
+    .disc-shop-btn {
+        width: auto;
+    }
+    .time-card {
+        gap: 6px;
+    }
+    /* carusal */
+    .container{
+        width: auto;
+    }
+    /* shopping cart */
+    .service {
+        flex-direction: column;
+    }
+
+    /* social */
+    .social-container{
+        flex-direction: column;
+    }
+
+    /* footer */
+    .footer-container{
+        flex-direction: column;
+    }
+    .newsletter-form button {
+        position: relative;
+    }
+    .newsletter-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 19px;
+    }
+}

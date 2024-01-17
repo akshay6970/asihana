@@ -1,0 +1,769 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* header */
+.header{
+    padding: 0px 45px 0px 45px;
+    box-shadow: 0px 5px 10px rgba(91, 91, 91, 0.1);
+}
+.logo{
+    padding: 26px 0px 23px 0px;
+}
+.nav-links{
+    padding: 29px 0 24px;
+    margin-left: 8px;
+}
+.links{
+    display: flex;
+    gap: 24px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #111111;
+    font-weight: 500;
+    padding: 4px 0px;
+}
+.header-icons{
+    padding: 30px 0 27px;
+}
+.header-icons{
+    gap: 29px;
+}
+.icons{
+    gap: 20px;
+    font-size: 22px;
+}
+.icons p{
+    position: relative;
+}
+.icons span{
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    color: #fff;
+    background: black;
+    /* padding: 4px 6px; */
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -7px;
+    right: -13px;
+}
+.buttons{
+    font-size: 12px;
+    color: #666666;
+    word-spacing: 1px;
+    padding-top: 8px;
+}
+.active{
+    border-bottom: 2px solid #CA1515;
+    padding-bottom: 3px;
+}
+
+/* category section */
+.category{
+    margin-bottom: 10px;
+}
+.image-card{
+    background-image: url('https://themewagon.github.io/ashion/img/categories/category-1.jpg');
+    height: 637px;
+    background-position: center;
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+
+}
+.image-card-overlay{
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+
+    /* align-items: center;
+    justify-content: center; */
+}
+.ws-title{
+    font-family: "Cookie", cursive;
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.ws-description{
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #666666;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 19px 0;
+}
+.shop-btn{
+    border-bottom: 2px solid #CA1515;
+    width: 17.5%;
+    font-size: 14px;
+    color: #111111;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    padding: 0 0 3px;
+}
+.men-card{
+    background-image: url('https://themewagon.github.io/ashion/img/categories/category-2.jpg');
+    height: 314px;
+    /* width: 308px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* padding-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px; */
+    flex: 1;
+}
+.kids-card{
+    background-image: url('https://themewagon.github.io/ashion/img/categories/category-3.jpg');
+    height: 314px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex: 1;
+}
+.cosmetic-card{
+    background-image: url('https://themewagon.github.io/ashion/img/categories/category-4.jpg');
+    height: 314px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex: 1;
+}
+.accessory-card{
+    background-image: url('https://themewagon.github.io/ashion/img/categories/category-5.jpg');
+    height: 314px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex: 1;
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.item-section{
+    margin-top: 10px;
+    gap: 10px;
+}
+.card-title{
+    color: #111111;
+    font-weight: 700;
+    font-size: 24px;
+}
+.quantity{
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #666666;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 15px 0;
+}
+.card-btn{
+    font-size: 14px;
+    color: #111111;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    padding: 0 0 3px;
+    display: inline-block;
+    width: 50%;
+    border-bottom: 2px solid #CA1515;
+}
+.cos-mbl-btn{
+    width: 65%;
+}
+.mbl-btn{
+    width: 58%;
+}
+.kid-mbl-btn{
+    width: 54%;
+}
+
+/* product Section */
+.product-section{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.product-container{
+    max-width: 1170px;
+    width: 100%;
+}
+.product-right-bar{
+    gap: 39px;
+    font-size: 14px;
+    color: #111111;
+    margin-bottom: 50px;
+    padding-right: 15px;
+    margin-top: 5px;
+}
+.product-title{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 15px;
+    position: relative;
+}
+.pro-line{
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    background: #CA1515;
+    bottom: 44.5px;
+}
+.product-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product-item{
+    margin-bottom: 35px;
+}
+.all{
+    border-bottom: 2px solid #CA1515;
+    padding-bottom: 4px;
+}
+/* first */
+.blazer-image{
+    height: 360px;
+    background-image: url('https://themewagon.github.io/ashion/img/product/product-1.jpg');
+}
+/* Second */
+.shirt-image{
+    height: 360px;
+    background-image: url('https://themewagon.github.io/ashion/img/product/product-2.jpg');
+}
+/* third */
+.T-shirt{
+    height: 360px;
+    background-image: url('https://themewagon.github.io/ashion/img/product/product-3.jpg');
+}
+/* fourth */
+.pocket-shirt{
+    height: 360px;
+    background-image: url('https://themewagon.github.io/ashion/img/product/product-4.jpg');
+}
+/* fifth */
+.fit-shirt{
+    height: 360px;
+    background-image: url('https://themewagon.github.io/ashion/img/product/product-5.jpg');
+}
+/* sixth */
+.top-shirt{
+    height: 360px;
+    background-image: url('https://themewagon.github.io/ashion/img/product/product-6.jpg');
+}
+/* seventh */
+.sun-glasses{
+    height: 360px;
+    background-image: url('https://themewagon.github.io/ashion/img/product/product-7.jpg');
+}
+
+.backpack{
+    height: 360px;
+    background-image: url('https://themewagon.github.io/ashion/img/product/product-8.jpg');
+}
+.set-image{
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+.new {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 500;
+    display: inline-block;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: #36a300;
+}
+.stock{
+    background: #111111;
+}
+.sale{
+    background: #ca1515;
+}
+del{
+    color: #b1b0b0;
+    margin-left: 7px;
+    font-size: 14px;
+}
+.price-off{
+    color: #ca1515;
+}
+
+
+.product-description{
+    text-align: center;
+    padding-top: 22px;
+}
+.heading{
+    font-size: 14px;
+    line-height: 1.6;
+}
+.rating{
+    word-spacing: -5px;
+    color: #e3c01c;
+    line-height: 18px;
+    /* margin-bottom: 5px; */
+    font-size: 13.5px;
+}
+.product-price{
+    font-weight: 600;
+}
+.item-col{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+
+}
+.end-col{
+    width: 100%;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+/* Carusal Section */
+.carusal-section{
+    background-image: url('https://themewagon.github.io/ashion/img/banner/banner-1.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.carusal-text{
+    padding: 150px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.carusal-heading{
+    font-size: 18px;
+    color: #ca1515;
+    text-transform: uppercase;
+    line-height: 1.6;
+}
+.banner-title{
+    font-size: 80px;
+    color: #111111;
+    font-family: "Cookie", cursive;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    margin-bottom: 19px;
+
+
+}
+.banner-btn{
+    width:13%
+}
+
+
+
+
+
+
+/* trends Section */
+.trend-section{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.trend-container{
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+}
+.outer{
+    position: relative;
+    width: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.section-title{
+    margin-bottom: 45px;
+    font-size: 20px;
+    color: #111111;
+    font-weight: 600;
+}
+.particular-item{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.trend-itme{
+    display: flex;
+    gap: 25px;
+}
+.trend-description{
+    display: flex;
+    flex-direction: column;
+    gap: 3.7px;
+    line-height: 1.5;
+}
+.trend-title{
+    font-size: 14px;
+    color: #111111;
+}
+
+/* Discount Section */
+.discount-section{
+    display: flex;
+    justify-content: center; 
+}
+.discount-container{
+    max-width: 1170px;
+    width: 100%;
+}
+.discount-left-side img{
+    height: 100%;
+    width: 100%;
+}
+.discount-right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f4f4f4;
+    height: 390px;
+    text-align: center;
+}
+.discount-logo{
+    margin-top: 75px;
+    margin-bottom: 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-text{
+    position: relative;
+    z-index: 11;
+}
+.bg-circle{
+    position: absolute;
+    background-color: #fff;
+    height: 183px;
+    width: 183px;
+    border-radius: 50%;
+    /* top: 0; */
+}
+.discount-subheading{
+    font-size: 12px;
+    color: #111111;
+    font-weight: 500;
+}
+.discount-title{
+    font-size: 60px;
+    color: #ca1515;
+    font-family: "Cookie", cursive;
+    line-height: 46px;
+    margin-bottom: 10px;
+    margin-top: 3.5px;
+}
+.discount-off{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.discount-off span{
+    color: #ca1515;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 4px;
+}
+.timer{
+    margin-top: 2px;
+    margin-bottom: 25px;
+}
+.time-card{
+    display: flex;
+    gap: 33px;
+}
+.digit{
+    font-size: 30px;
+    font-weight: 600; 
+}
+.digit span{
+    font-weight: 500;
+    font-size: 14px;
+}
+.disc-shop-btn{
+    width: auto;
+}
+
+/* service -section */
+.service-section{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.service-container{
+    max-width: 1170px;
+    width: 100%;
+}
+.service{
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 30px; */
+}
+.service-card{
+    display: flex;
+    gap: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.service-icon{
+    font-size: 36px;
+    color: #ca1515;
+    padding-top: 4px;
+}
+.service-description{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+    line-height: 24px;
+}
+.ser-card-title{
+    color: #111111;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+/* social Container */
+.social-container{
+    width: 100%;
+
+}
+.social-image{
+    background-image: url('https://themewagon.github.io/ashion/img/instagram/insta-1.jpg');
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{    
+    background-image: url('https://themewagon.github.io/ashion/img/instagram/insta-2.jpg');
+}
+.two{
+    background-image: url('https://themewagon.github.io/ashion/img/instagram/insta-3.jpg');
+}
+.third-image{
+    background-image: url('https://themewagon.github.io/ashion/img/instagram/insta-4.jpg');
+}
+.fourth-image{
+    background-image: url('https://themewagon.github.io/ashion/img/instagram/insta-5.jpg');
+}
+.fifth-image{
+    background-image: url('https://themewagon.github.io/ashion/img/instagram/insta-6.jpg');
+}
+
+.social-text{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: black;
+    background: rgba(255, 255, 255, 0.9);
+    transition: 0.3s ease-in-out;
+}
+.simple-card{
+    position: relative;
+    cursor: pointer;
+}
+.social-text i{
+    font-size: 30px;
+    color: #0d0d0d;
+}
+.simple-card:hover .social-text {
+    cursor: pointer;
+    /* opacity: 1; */
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.social-title{
+    color: #0d0d0d;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer{
+    padding-top: 55px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-container{
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+}
+.footer-about{
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.about-desc{
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #666666;
+    font-weight: 400;
+    line-height: 24px;
+    /* width: 90%; */
+}
+.footer-card{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 30px;
+}
+
+
+.payment-card{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-links{
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.link-card{
+    font-size: 14px;
+    color: #666666;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.link-title{
+    font-size: 16px;
+    color: #111111;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.newsletter-card{
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+.newsletter-container{
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+.news-title{
+    color: #111111;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.newsletter-form{
+    position: relative;
+}
+.newsletter-form input{
+    height: 51px;
+    width: 92%;
+    border: 1px solid #e1e1e1;
+    border-radius: 50px;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #666666;
+}
+.newsletter-form button{
+    font-size: 14px;
+    color: #ffffff;
+    background: #ca1515;
+    font-weight: 600;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+.footer-icon{
+    display: flex;
+    gap: 8px;
+}
+.footer-social{
+    height: 40px;
+    width: 40px;
+    background: #e1e1e1;
+    font-size: 15px;
+    color: #111111;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.footer-bottom{
+    max-width: 1170px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-top: 35px;
+}
+.bottom-text{
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 18px 0 25px;
+    border-top: 1px solid #e1e1e1;
+}
+.bottom-text i{
+    color: #ca1515;
+}
