@@ -9,6 +9,9 @@
     .ju{
         display: none;
     }
+    .container{
+        width: auto;
+    }
 
     /* category section */
     .card{
